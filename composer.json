@@ -1,0 +1,22 @@
+{
+  "name": "jinnguyen/puja-upload",
+  "description": "Puja-Upload is a flexible component for upload files.",
+  "type": "library",
+  "license": "Apache License 2.0",
+  "keywords": ["Puja", "Upload"],
+  "authors": [
+    {
+      "name": "Jin Nguyen",
+      "email": "w2ajax@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+      "jinnguyen/puja-stdlib": "*"
+  },
+  "autoload": {
+      "psr-4": {
+        "Puja\\Upload\\": "src/"
+      }
+  }
+}
